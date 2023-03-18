@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Morse Translator</title>
+</head>
+<body>
+    <div id="mtitle" class="mtitle">
+        Morse <span>Translator</span>
+
+        <textarea name="txt" id="txt" placeholder="Type some text here!"></textarea>
+        <button id="encodebtn" class="clk" onclick="encodeText()">Encode</button>
+        <button id="decodebtn" class="clk" onclick="decodeText()">Decode</button>
+        <button id="snd" class="sclk" onclick="sndV()"><img id="mic" src="sndV()"></img></button>
+        <button id="copy" class="sclk" onclick="copyText()"><img src="styles/images/copy.png"></img></button>
+    </div>
+    <script src="scripts/api.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

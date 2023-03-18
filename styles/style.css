@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'product-sans-bold';
+    src: url('fonts/Product-Sans-Bold.woff') format('woff'),
+         url('fonts/Product-Sans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'product-sans';
+    src: url('fonts/Product-Sans-Regular.woff') format('woff'),
+         url('fonts/Product-Sans-Regular.ttf') format('truetype');
+}
+
+div span {
+    color: #938EEE;
+}
+
+.mtitle {
+    font-family: "product-sans-bold", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#mtitle textarea[name="txt"] {
+    font-family: product-sans, sans-serif;
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 80%;
+    max-width: 400px;
+    height: 300px;
+    resize: vertical;
+  }
+
+.clk, .sclk {
+    background-color: #938EEE;
+    font-size: 20px;
+    color: white;
+    font-family: product-sans, sans-serif;
+    margin: 20px 5px 0;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle; 
+    outline: none;
+    border: none;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.clk:hover, .sclk:hover {
+    background-color: #706AE8;
+}
+
+.clk:active, .sclk:active {
+    background-color: #938EEE;
+}
+
+.clk {
+    height: 45px;
+}
+.sclk {
+    margin-left: 5px;
+    height: 45px;
+}
